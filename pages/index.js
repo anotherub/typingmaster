@@ -154,7 +154,8 @@ const index = () => {
                   alignItems: 'center',
                   justifyContent: 'center',
                   marginLeft: '10px',
-                  width: '20%'
+                  padding: '0 5px',
+                  width: 'inherit'
                 }}
               >
                 {Math.floor(timer / 60)}:{`${timer - 60 * Math.floor(timer / 60)}`.length < 2 ? (
