@@ -176,7 +176,7 @@ const index = () => {
                   style={{
                     backgroundColor: 'white',
                     marginTop: '20px',
-                    display: 'relative',
+                    position: 'relative',
                     padding: '10px 10px',
                     borderRadius: '5px'
                   }}
@@ -202,7 +202,7 @@ const index = () => {
                     </Card.Text>
                   </Card.Body>
                   <Button
-                    style={{ color: '#47A447', position: 'relative', left: '70px', bottom: '0px' }}
+                    style={{ color: '#47A447', bottom: '0px', justifyContent: 'center', width: '100%' }}
                     variant="primary"
                     onClick={playAgainHandler}
                   >
