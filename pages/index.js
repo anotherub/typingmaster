@@ -114,7 +114,7 @@ const index = () => {
                 display: 'flex',
                 width: 'auto',
                 borderRadius: '5px',
-                padding: '10px 150px'
+                padding: '10px 25%'
               }}
             >
               <Col lg={8} md={8} sm={9} xs={8}>
@@ -127,7 +127,10 @@ const index = () => {
                     borderRadius: '8px',
                     width: '100%',
                     alignItems: 'center',
-                    marginTop: '3px'
+                    marginTop: '3px',
+                    minWidth: '100px',
+                    display: 'flex',
+                    float: 'right'
                   }}
                   onChange={start}
                   disabled={isTimeup || inputdisable}
