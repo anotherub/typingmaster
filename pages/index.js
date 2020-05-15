@@ -3,7 +3,6 @@ import Head from 'next/head'
 import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 var randomWords = require('random-words')
 const wordlist = randomWords(1000)
-
 const index = () => {
   const [ isTypingStarted, setIsTypingStarted ] = useState(false)
   const [ currentWordIndex, setCurrentWordIndex ] = useState(0)
@@ -221,8 +220,3 @@ const index = () => {
   )
 }
 export default index
-// function About() {
-//   return <div>About</div>
-// }
-
-// export default About
